@@ -14,6 +14,7 @@
 		FE02CA182B13B12700048BD0 /* EnvObjectProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02CA172B13B12700048BD0 /* EnvObjectProjectTests.swift */; };
 		FE02CA222B13B12700048BD0 /* EnvObjectProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02CA212B13B12700048BD0 /* EnvObjectProjectUITests.swift */; };
 		FE02CA242B13B12700048BD0 /* EnvObjectProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02CA232B13B12700048BD0 /* EnvObjectProjectUITestsLaunchTests.swift */; };
+		FEE2129F2B165DFC00BBC5BE /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2129E2B165DFC00BBC5BE /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FE02CA1D2B13B12700048BD0 /* EnvObjectProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvObjectProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE02CA212B13B12700048BD0 /* EnvObjectProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvObjectProjectUITests.swift; sourceTree = "<group>"; };
 		FE02CA232B13B12700048BD0 /* EnvObjectProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvObjectProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEE2129E2B165DFC00BBC5BE /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FE02CA062B13B12500048BD0 /* EnvObjectProjectApp.swift */,
 				FE02CA082B13B12500048BD0 /* ContentView.swift */,
+				FEE2129E2B165DFC00BBC5BE /* EditProfileView.swift */,
 				FE02CA0A2B13B12700048BD0 /* Assets.xcassets */,
 				FE02CA0C2B13B12700048BD0 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE2129F2B165DFC00BBC5BE /* EditProfileView.swift in Sources */,
 				FE02CA092B13B12500048BD0 /* ContentView.swift in Sources */,
 				FE02CA072B13B12500048BD0 /* EnvObjectProjectApp.swift in Sources */,
 			);
@@ -429,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +462,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
